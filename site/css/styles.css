@@ -106,9 +106,9 @@ height: 5px;
 }
 #customer img {
     position: fixed;
-    height: 500px;
+    height: 600px;
     width: 500px;
-    transform: translate(-100px, 50px);
+    transform: translate(-100px, 100px);
 }
 
 
@@ -159,7 +159,7 @@ h3 {
   }
   
   .figure {
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -171,6 +171,9 @@ h3 {
     display: block;
     width: 100%;
     opacity: 1;
+    height: 100%;
+    padding-left: 0px;
+    padding-bottom: 0px;
   }
   
   .figure img {
@@ -260,9 +263,9 @@ h3 {
   
   .figCaption > span {
     float: right;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 12px;
-    font-weight: normal;
+    font-weight: bold;
     margin-left: 5px;
   }
   
@@ -318,7 +321,8 @@ h3 {
   }
   
   .figType {
-    background-color: #eab134;
+    /* background-color: #eab134; */
+    background-color: rgb(192, 6, 6);
     font-size: 10px;
     line-height: 11px;
     color: #fff;
@@ -397,13 +401,13 @@ h3 {
   #view-more-btn {
     background-color: #192537;
     color: #fff;
-    border: solid #fff 1px;
+    border: solid #b09e80 1px;
     float: right;
     margin-right: 15px;
 }
 #view-more-btn:hover {
     color: #192537;
-    background-color: #fff;
+    background-color: #b09e80;
 }
 
 
